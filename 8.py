@@ -136,3 +136,9 @@ for i in range (len(a)):
 	if a[i][0]=='Л' or a[i][0]=='Т': #считаем
 		n+=1
 print (n) # и выводим кол во
+
+
+
+from itertools import permutations 
+a = list(set(list (permutations ('ТАРТАР', 6)))) 
+print (len(a))
